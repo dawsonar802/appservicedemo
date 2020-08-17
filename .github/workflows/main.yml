@@ -3,7 +3,7 @@ name: Deploy ASP.NET Core
 on:
      push:
         branches:
-            -master
+            - master
 
 env:
     AZURE_WEBAPP_NAME: azwebapp20200817
